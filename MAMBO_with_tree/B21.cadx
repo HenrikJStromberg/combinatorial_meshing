@@ -1,0 +1,336 @@
+<FeatureTree Exporting_From="FreeCAD">
+	<Feature Name="Pad" ID="0" Type="Extrusion" Remove="False" Length="10.0">
+		<Base_Sketch Lable="Sketch" IsOpen="False" LocalCS="True">
+			<Position X="0.0" Y="0.0" Z="0.0" />
+			<X X="1.0" Y="0.0" Z="0.0" />
+			<Y X="0.0" Y="-1.6081226496766366e-16" Z="-1.0" />
+			<Z X="0.0" Y="1.0" Z="-1.6081226496766366e-16" />
+			<Geometry>
+				<Line L="10.0" ID="0">
+					<StartPnt X="0.0" Y="0.0" Z="0.0" />
+					<EndPnt X="10.0" Y="0.0" Z="0.0" />
+				</Line>
+				<Line L="5.55215" ID="1">
+					<StartPnt X="10.0" Y="0.0" Z="0.0" />
+					<EndPnt X="10.0" Y="5.55215" Z="0.0" />
+				</Line>
+				<Line L="10.0" ID="2">
+					<StartPnt X="10.0" Y="5.55215" Z="0.0" />
+					<EndPnt X="0.0" Y="5.55215" Z="0.0" />
+				</Line>
+				<Line L="5.55215" ID="3">
+					<StartPnt X="0.0" Y="5.55215" Z="0.0" />
+					<EndPnt X="0.0" Y="0.0" Z="0.0" />
+				</Line>
+			</Geometry>
+		</Base_Sketch>
+		<Direction X="0.0" Y="1.0" Z="-1.6081226496766366e-16" />
+	</Feature>
+	<Feature Name="Pocket" ID="1" Type="Extrusion" Remove="True" Length="10.0">
+		<Base_Sketch Lable="Sketch002" IsOpen="False" LocalCS="True">
+			<Position X="0.0" Y="-0.0" Z="0.0" />
+			<X X="6.123233995736766e-17" Y="0.0" Z="1.0" />
+			<Y X="1.2246467991473532e-16" Y="-1.0" Z="-7.498798913309288e-33" />
+			<Z X="1.0" Y="1.2246467991473532e-16" Z="-6.123233995736766e-17" />
+			<Geometry>
+				<Line L="2.5521499999999993" ID="0">
+					<StartPnt X="0.0" Y="0.0" Z="0.0" />
+					<EndPnt X="-2.5521499999999993" Y="0.0" Z="0.0" />
+				</Line>
+				<Line L="5.0" ID="1">
+					<StartPnt X="-2.5521499999999993" Y="0.0" Z="0.0" />
+					<EndPnt X="-2.5521499999999993" Y="5.0" Z="0.0" />
+				</Line>
+				<Line L="2.5521499999999993" ID="2">
+					<StartPnt X="-2.5521499999999993" Y="5.0" Z="0.0" />
+					<EndPnt X="0.0" Y="5.0" Z="0.0" />
+				</Line>
+				<Line L="5.0" ID="3">
+					<StartPnt X="0.0" Y="5.0" Z="0.0" />
+					<EndPnt X="0.0" Y="0.0" Z="0.0" />
+				</Line>
+			</Geometry>
+		</Base_Sketch>
+		<Direction X="1.0" Y="1.2246467991473532e-16" Z="-6.123233995736766e-17" />
+	</Feature>
+	<Feature Name="Pocket001" ID="2" Type="Extrusion" Remove="True" Length="5.0">
+		<Base_Sketch Lable="Sketch003" IsOpen="False" LocalCS="True">
+			<Position X="0.0" Y="-5.0" Z="1.6602230246251566e-15" />
+			<X X="1.0" Y="0.0" Z="0.0" />
+			<Y X="0.0" Y="-1.6081226496766366e-16" Z="1.0" />
+			<Z X="0.0" Y="-1.0" Z="-1.6081226496766366e-16" />
+			<Geometry>
+				<Line L="9.999999999999998" ID="0">
+					<StartPnt X="9.999999999999998" Y="-2.2e-15" Z="0.0" />
+					<EndPnt X="0.0" Y="0.0" Z="0.0" />
+				</Line>
+				<Line L="7.461983174960928" ID="1">
+					<StartPnt X="0.0" Y="0.0" Z="0.0" />
+					<EndPnt X="7.011969999999998" Y="-2.5521499999999997" Z="0.0" />
+				</Line>
+				<Line L="2.98803" ID="2">
+					<StartPnt X="7.011969999999998" Y="-2.5521499999999997" Z="0.0" />
+					<EndPnt X="9.999999999999998" Y="-2.5521499999999997" Z="0.0" />
+				</Line>
+				<Line L="2.552149999999998" ID="3">
+					<StartPnt X="10.0" Y="-2.55215" Z="0.0" />
+					<EndPnt X="9.999999999999998" Y="-2.220446049250313e-15" Z="0.0" />
+				</Line>
+			</Geometry>
+		</Base_Sketch>
+		<Direction X="0.0" Y="-1.0" Z="-1.6081226496766366e-16" />
+	</Feature>
+	<STEP>
+		<line0 content="ISO-10303-21;" />
+		<line1 content="HEADER;" />
+		<line2 content="FILE_DESCRIPTION(('STEP AP214'),'1');" />
+		<line3 content="FILE_NAME('B21.step','2020-02-13T15:53:41',('Cubit 15.2'),(' '),'Spatial InterOp 3D',' ',' ');" />
+		<line4 content="FILE_SCHEMA(('automotive_design'));" />
+		<line5 content="ENDSEC;" />
+		<line6 content="DATA;" />
+		<line7 content="#1=PRODUCT_DEFINITION_CONTEXT('',#9,'design');" />
+		<line8 content="#2=APPLICATION_PROTOCOL_DEFINITION('INTERNATIONAL STANDARD','automotive_design',1994,#9);" />
+		<line9 content="#3=PRODUCT_CATEGORY_RELATIONSHIP('NONE','NONE',#10,#11);" />
+		<line10 content="#4=SHAPE_DEFINITION_REPRESENTATION(#12,#13);" />
+		<line11 content="#5= (GEOMETRIC_REPRESENTATION_CONTEXT(3)GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#16))GLOBAL_UNIT_ASSIGNED_CONTEXT((#18,#19,#20))REPRESENTATION_CONTEXT('NONE','WORKSPACE'));" />
+		<line12 content="#9=APPLICATION_CONTEXT(' ');" />
+		<line13 content="#10=PRODUCT_CATEGORY('part','NONE');" />
+		<line14 content="#11=PRODUCT_RELATED_PRODUCT_CATEGORY('detail',' ',(#22));" />
+		<line15 content="#12=PRODUCT_DEFINITION_SHAPE('NONE','NONE',#23);" />
+		<line16 content="#13=ADVANCED_BREP_SHAPE_REPRESENTATION('1',(#24,#25),#5);" />
+		<line17 content="#16=UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.0E-06),#18,'','');" />
+		<line18 content="#18= (CONVERSION_BASED_UNIT('MILLIMETRE',#28)LENGTH_UNIT()NAMED_UNIT(#31));" />
+		<line19 content="#19= (NAMED_UNIT(#33)PLANE_ANGLE_UNIT()SI_UNIT($,.RADIAN.));" />
+		<line20 content="#20= (NAMED_UNIT(#33)SOLID_ANGLE_UNIT()SI_UNIT($,.STERADIAN.));" />
+		<line21 content="#22=PRODUCT('1','1','PART-1-DESC',(#39));" />
+		<line22 content="#23=PRODUCT_DEFINITION('NONE','NONE',#40,#1);" />
+		<line23 content="#24=MANIFOLD_SOLID_BREP('1',#41);" />
+		<line24 content="#25=AXIS2_PLACEMENT_3D('',#42,#43,#44);" />
+		<line25 content="#28=LENGTH_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.0),#45);" />
+		<line26 content="#31=DIMENSIONAL_EXPONENTS(1.0,0.0,0.0,0.0,0.0,0.0,0.0);" />
+		<line27 content="#33=DIMENSIONAL_EXPONENTS(0.0,0.0,0.0,0.0,0.0,0.0,0.0);" />
+		<line28 content="#39=PRODUCT_CONTEXT('',#9,'mechanical');" />
+		<line29 content="#40=PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE(' ','NONE',#22,.NOT_KNOWN.);" />
+		<line30 content="#41=CLOSED_SHELL('',(#46,#47,#48,#49,#50,#51,#52,#53));" />
+		<line31 content="#42=CARTESIAN_POINT('',(0.0,0.0,0.0));" />
+		<line32 content="#43=DIRECTION('',(0.0,0.0,1.0));" />
+		<line33 content="#44=DIRECTION('',(1.0,0.0,0.0));" />
+		<line34 content="#45= (NAMED_UNIT(#31)LENGTH_UNIT()SI_UNIT(.MILLI.,.METRE.));" />
+		<line35 content="#46=ADVANCED_FACE('',(#55),#56,.F.);" />
+		<line36 content="#47=ADVANCED_FACE('',(#57),#58,.T.);" />
+		<line37 content="#48=ADVANCED_FACE('',(#59),#60,.F.);" />
+		<line38 content="#49=ADVANCED_FACE('',(#61),#62,.T.);" />
+		<line39 content="#50=ADVANCED_FACE('',(#63),#64,.F.);" />
+		<line40 content="#51=ADVANCED_FACE('',(#65),#66,.F.);" />
+		<line41 content="#52=ADVANCED_FACE('',(#67),#68,.F.);" />
+		<line42 content="#53=ADVANCED_FACE('',(#69),#70,.F.);" />
+		<line43 content="#55=FACE_OUTER_BOUND('',#71,.T.);" />
+		<line44 content="#56=PLANE('',#72);" />
+		<line45 content="#57=FACE_OUTER_BOUND('',#73,.T.);" />
+		<line46 content="#58=PLANE('',#74);" />
+		<line47 content="#59=FACE_OUTER_BOUND('',#75,.T.);" />
+		<line48 content="#60=PLANE('',#76);" />
+		<line49 content="#61=FACE_OUTER_BOUND('',#77,.T.);" />
+		<line50 content="#62=PLANE('',#78);" />
+		<line51 content="#63=FACE_OUTER_BOUND('',#79,.T.);" />
+		<line52 content="#64=PLANE('',#80);" />
+		<line53 content="#65=FACE_OUTER_BOUND('',#81,.T.);" />
+		<line54 content="#66=PLANE('',#82);" />
+		<line55 content="#67=FACE_OUTER_BOUND('',#83,.T.);" />
+		<line56 content="#68=PLANE('',#84);" />
+		<line57 content="#69=FACE_OUTER_BOUND('',#85,.T.);" />
+		<line58 content="#70=PLANE('',#86);" />
+		<line59 content="#71=EDGE_LOOP('',(#87,#88,#89,#90,#91));" />
+		<line60 content="#72=AXIS2_PLACEMENT_3D('',#92,#93,#94);" />
+		<line61 content="#73=EDGE_LOOP('',(#95,#96,#97,#98));" />
+		<line62 content="#74=AXIS2_PLACEMENT_3D('',#99,#100,#101);" />
+		<line63 content="#75=EDGE_LOOP('',(#102,#103,#104));" />
+		<line64 content="#76=AXIS2_PLACEMENT_3D('',#105,#106,#107);" />
+		<line65 content="#77=EDGE_LOOP('',(#108,#109,#110,#111,#112,#113));" />
+		<line66 content="#78=AXIS2_PLACEMENT_3D('',#114,#115,#116);" />
+		<line67 content="#79=EDGE_LOOP('',(#117,#118,#119,#120,#121,#122));" />
+		<line68 content="#80=AXIS2_PLACEMENT_3D('',#123,#124,#125);" />
+		<line69 content="#81=EDGE_LOOP('',(#126,#127,#128,#129));" />
+		<line70 content="#82=AXIS2_PLACEMENT_3D('',#130,#131,#132);" />
+		<line71 content="#83=EDGE_LOOP('',(#133,#134,#135,#136));" />
+		<line72 content="#84=AXIS2_PLACEMENT_3D('',#137,#138,#139);" />
+		<line73 content="#85=EDGE_LOOP('',(#140,#141,#142,#143));" />
+		<line74 content="#86=AXIS2_PLACEMENT_3D('',#144,#145,#146);" />
+		<line75 content="#87=ORIENTED_EDGE('',*,*,#147,.F.);" />
+		<line76 content="#88=ORIENTED_EDGE('',*,*,#148,.F.);" />
+		<line77 content="#89=ORIENTED_EDGE('',*,*,#149,.F.);" />
+		<line78 content="#90=ORIENTED_EDGE('',*,*,#150,.T.);" />
+		<line79 content="#91=ORIENTED_EDGE('',*,*,#151,.F.);" />
+		<line80 content="#92=CARTESIAN_POINT('',(0.0,5.0,0.0));" />
+		<line81 content="#93=DIRECTION('',(0.0,-1.0,0.0));" />
+		<line82 content="#94=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line83 content="#95=ORIENTED_EDGE('',*,*,#152,.T.);" />
+		<line84 content="#96=ORIENTED_EDGE('',*,*,#153,.T.);" />
+		<line85 content="#97=ORIENTED_EDGE('',*,*,#154,.F.);" />
+		<line86 content="#98=ORIENTED_EDGE('',*,*,#148,.T.);" />
+		<line87 content="#99=CARTESIAN_POINT('',(-0.486969785011497,2.5,2.40953893117886));" />
+		<line88 content="#100=DIRECTION('',(0.342020143325669,0.0,0.939692620785908));" />
+		<line89 content="#101=DIRECTION('',(0.939692620785908,0.0,-0.342020143325669));" />
+		<line90 content="#102=ORIENTED_EDGE('',*,*,#155,.T.);" />
+		<line91 content="#103=ORIENTED_EDGE('',*,*,#156,.F.);" />
+		<line92 content="#104=ORIENTED_EDGE('',*,*,#153,.F.);" />
+		<line93 content="#105=CARTESIAN_POINT('',(-1.0,0.0,1.0));" />
+		<line94 content="#106=DIRECTION('',(-0.0,1.0,0.0));" />
+		<line95 content="#107=DIRECTION('',(0.342020143325669,0.0,0.939692620785908));" />
+		<line96 content="#108=ORIENTED_EDGE('',*,*,#154,.T.);" />
+		<line97 content="#109=ORIENTED_EDGE('',*,*,#156,.T.);" />
+		<line98 content="#110=ORIENTED_EDGE('',*,*,#157,.T.);" />
+		<line99 content="#111=ORIENTED_EDGE('',*,*,#158,.T.);" />
+		<line100 content="#112=ORIENTED_EDGE('',*,*,#159,.T.);" />
+		<line101 content="#113=ORIENTED_EDGE('',*,*,#149,.T.);" />
+		<line102 content="#114=CARTESIAN_POINT('',(0.0,0.0,1.5));" />
+		<line103 content="#115=DIRECTION('',(0.0,0.0,1.0));" />
+		<line104 content="#116=DIRECTION('',(1.0,0.0,0.0));" />
+		<line105 content="#117=ORIENTED_EDGE('',*,*,#157,.F.);" />
+		<line106 content="#118=ORIENTED_EDGE('',*,*,#155,.F.);" />
+		<line107 content="#119=ORIENTED_EDGE('',*,*,#152,.F.);" />
+		<line108 content="#120=ORIENTED_EDGE('',*,*,#147,.T.);" />
+		<line109 content="#121=ORIENTED_EDGE('',*,*,#160,.F.);" />
+		<line110 content="#122=ORIENTED_EDGE('',*,*,#161,.F.);" />
+		<line111 content="#123=CARTESIAN_POINT('',(-5.0,0.0,0.0));" />
+		<line112 content="#124=DIRECTION('',(1.0,0.0,0.0));" />
+		<line113 content="#125=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line114 content="#126=ORIENTED_EDGE('',*,*,#151,.T.);" />
+		<line115 content="#127=ORIENTED_EDGE('',*,*,#162,.T.);" />
+		<line116 content="#128=ORIENTED_EDGE('',*,*,#163,.T.);" />
+		<line117 content="#129=ORIENTED_EDGE('',*,*,#160,.T.);" />
+		<line118 content="#130=CARTESIAN_POINT('',(0.0,0.0,-1.5));" />
+		<line119 content="#131=DIRECTION('',(0.0,0.0,1.0));" />
+		<line120 content="#132=DIRECTION('',(1.0,0.0,0.0));" />
+		<line121 content="#133=ORIENTED_EDGE('',*,*,#161,.T.);" />
+		<line122 content="#134=ORIENTED_EDGE('',*,*,#163,.F.);" />
+		<line123 content="#135=ORIENTED_EDGE('',*,*,#164,.F.);" />
+		<line124 content="#136=ORIENTED_EDGE('',*,*,#158,.F.);" />
+		<line125 content="#137=CARTESIAN_POINT('',(0.0,-5.0,0.0));" />
+		<line126 content="#138=DIRECTION('',(0.0,1.0,-0.0));" />
+		<line127 content="#139=DIRECTION('',(-0.0,0.0,1.0));" />
+		<line128 content="#140=ORIENTED_EDGE('',*,*,#164,.T.);" />
+		<line129 content="#141=ORIENTED_EDGE('',*,*,#162,.F.);" />
+		<line130 content="#142=ORIENTED_EDGE('',*,*,#150,.F.);" />
+		<line131 content="#143=ORIENTED_EDGE('',*,*,#159,.F.);" />
+		<line132 content="#144=CARTESIAN_POINT('',(5.0,0.0,0.0));" />
+		<line133 content="#145=DIRECTION('',(-1.0,0.0,0.0));" />
+		<line134 content="#146=DIRECTION('',(0.0,-0.0,1.0));" />
+		<line135 content="#147=EDGE_CURVE('',#165,#166,#167,.T.);" />
+		<line136 content="#148=EDGE_CURVE('',#168,#165,#169,.T.);" />
+		<line137 content="#149=EDGE_CURVE('',#170,#168,#171,.T.);" />
+		<line138 content="#150=EDGE_CURVE('',#170,#172,#173,.T.);" />
+		<line139 content="#151=EDGE_CURVE('',#166,#172,#174,.T.);" />
+		<line140 content="#152=EDGE_CURVE('',#165,#175,#176,.T.);" />
+		<line141 content="#153=EDGE_CURVE('',#175,#177,#178,.T.);" />
+		<line142 content="#154=EDGE_CURVE('',#168,#177,#179,.T.);" />
+		<line143 content="#155=EDGE_CURVE('',#175,#180,#181,.T.);" />
+		<line144 content="#156=EDGE_CURVE('',#177,#180,#182,.T.);" />
+		<line145 content="#157=EDGE_CURVE('',#180,#183,#184,.T.);" />
+		<line146 content="#158=EDGE_CURVE('',#183,#185,#186,.T.);" />
+		<line147 content="#159=EDGE_CURVE('',#185,#170,#187,.T.);" />
+		<line148 content="#160=EDGE_CURVE('',#188,#166,#189,.T.);" />
+		<line149 content="#161=EDGE_CURVE('',#183,#188,#190,.T.);" />
+		<line150 content="#162=EDGE_CURVE('',#172,#191,#192,.T.);" />
+		<line151 content="#163=EDGE_CURVE('',#191,#188,#193,.T.);" />
+		<line152 content="#164=EDGE_CURVE('',#185,#191,#194,.T.);" />
+		<line153 content="#165=VERTEX_POINT('',#195);" />
+		<line154 content="#166=VERTEX_POINT('',#196);" />
+		<line155 content="#167=LINE('',#197,#198);" />
+		<line156 content="#168=VERTEX_POINT('',#199);" />
+		<line157 content="#169=LINE('',#200,#201);" />
+		<line158 content="#170=VERTEX_POINT('',#202);" />
+		<line159 content="#171=LINE('',#203,#204);" />
+		<line160 content="#172=VERTEX_POINT('',#205);" />
+		<line161 content="#173=LINE('',#206,#207);" />
+		<line162 content="#174=LINE('',#208,#209);" />
+		<line163 content="#175=VERTEX_POINT('',#210);" />
+		<line164 content="#176=LINE('',#211,#212);" />
+		<line165 content="#177=VERTEX_POINT('',#213);" />
+		<line166 content="#178=LINE('',#214,#215);" />
+		<line167 content="#179=LINE('',#216,#217);" />
+		<line168 content="#180=VERTEX_POINT('',#218);" />
+		<line169 content="#181=LINE('',#219,#220);" />
+		<line170 content="#182=LINE('',#221,#222);" />
+		<line171 content="#183=VERTEX_POINT('',#223);" />
+		<line172 content="#184=LINE('',#224,#225);" />
+		<line173 content="#185=VERTEX_POINT('',#226);" />
+		<line174 content="#186=LINE('',#227,#228);" />
+		<line175 content="#187=LINE('',#229,#230);" />
+		<line176 content="#188=VERTEX_POINT('',#231);" />
+		<line177 content="#189=LINE('',#232,#233);" />
+		<line178 content="#190=LINE('',#234,#235);" />
+		<line179 content="#191=VERTEX_POINT('',#236);" />
+		<line180 content="#192=LINE('',#237,#238);" />
+		<line181 content="#193=LINE('',#239,#240);" />
+		<line182 content="#194=LINE('',#241,#242);" />
+		<line183 content="#195=CARTESIAN_POINT('',(-5.0,5.0,4.05214759577868));" />
+		<line184 content="#196=CARTESIAN_POINT('',(-5.0,5.0,-1.5));" />
+		<line185 content="#197=CARTESIAN_POINT('',(-5.0,5.0,0.0));" />
+		<line186 content="#198=VECTOR('',#243,1.0);" />
+		<line187 content="#199=CARTESIAN_POINT('',(2.01196789051732,5.0,1.5));" />
+		<line188 content="#200=CARTESIAN_POINT('',(-0.486969785011497,5.0,2.40953893117886));" />
+		<line189 content="#201=VECTOR('',#244,0.999999999999999);" />
+		<line190 content="#202=CARTESIAN_POINT('',(5.0,5.0,1.5));" />
+		<line191 content="#203=CARTESIAN_POINT('',(0.0,5.0,1.5));" />
+		<line192 content="#204=VECTOR('',#245,1.0);" />
+		<line193 content="#205=CARTESIAN_POINT('',(5.0,5.0,-1.5));" />
+		<line194 content="#206=CARTESIAN_POINT('',(5.0,5.0,0.0));" />
+		<line195 content="#207=VECTOR('',#246,1.0);" />
+		<line196 content="#208=CARTESIAN_POINT('',(0.0,5.0,-1.5));" />
+		<line197 content="#209=VECTOR('',#247,1.0);" />
+		<line198 content="#210=CARTESIAN_POINT('',(-5.0,0.0,4.05214759577868));" />
+		<line199 content="#211=CARTESIAN_POINT('',(-5.0,1.25,4.05214759577868));" />
+		<line200 content="#212=VECTOR('',#248,1.0);" />
+		<line201 content="#213=CARTESIAN_POINT('',(2.01196789051732,0.0,1.5));" />
+		<line202 content="#214=CARTESIAN_POINT('',(-0.486969785011497,0.0,2.40953893117886));" />
+		<line203 content="#215=VECTOR('',#249,0.999999999999999);" />
+		<line204 content="#216=CARTESIAN_POINT('',(2.01196789051732,1.25,1.5));" />
+		<line205 content="#217=VECTOR('',#250,1.0);" />
+		<line206 content="#218=CARTESIAN_POINT('',(-5.0,0.0,1.5));" />
+		<line207 content="#219=CARTESIAN_POINT('',(-5.0,0.0,0.5));" />
+		<line208 content="#220=VECTOR('',#251,1.0);" />
+		<line209 content="#221=CARTESIAN_POINT('',(-0.5,0.0,1.5));" />
+		<line210 content="#222=VECTOR('',#252,1.0);" />
+		<line211 content="#223=CARTESIAN_POINT('',(-5.0,-5.0,1.5));" />
+		<line212 content="#224=CARTESIAN_POINT('',(-5.0,0.0,1.5));" />
+		<line213 content="#225=VECTOR('',#253,1.0);" />
+		<line214 content="#226=CARTESIAN_POINT('',(5.0,-5.0,1.5));" />
+		<line215 content="#227=CARTESIAN_POINT('',(0.0,-5.0,1.5));" />
+		<line216 content="#228=VECTOR('',#254,1.0);" />
+		<line217 content="#229=CARTESIAN_POINT('',(5.0,0.0,1.5));" />
+		<line218 content="#230=VECTOR('',#255,1.0);" />
+		<line219 content="#231=CARTESIAN_POINT('',(-5.0,-5.0,-1.5));" />
+		<line220 content="#232=CARTESIAN_POINT('',(-5.0,0.0,-1.5));" />
+		<line221 content="#233=VECTOR('',#256,1.0);" />
+		<line222 content="#234=CARTESIAN_POINT('',(-5.0,-5.0,0.0));" />
+		<line223 content="#235=VECTOR('',#257,1.0);" />
+		<line224 content="#236=CARTESIAN_POINT('',(5.0,-5.0,-1.5));" />
+		<line225 content="#237=CARTESIAN_POINT('',(5.0,0.0,-1.5));" />
+		<line226 content="#238=VECTOR('',#258,1.0);" />
+		<line227 content="#239=CARTESIAN_POINT('',(0.0,-5.0,-1.5));" />
+		<line228 content="#240=VECTOR('',#259,1.0);" />
+		<line229 content="#241=CARTESIAN_POINT('',(5.0,-5.0,0.0));" />
+		<line230 content="#242=VECTOR('',#260,1.0);" />
+		<line231 content="#243=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line232 content="#244=DIRECTION('',(-0.939692620785908,0.0,0.342020143325669));" />
+		<line233 content="#245=DIRECTION('',(-1.0,0.0,0.0));" />
+		<line234 content="#246=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line235 content="#247=DIRECTION('',(1.0,0.0,0.0));" />
+		<line236 content="#248=DIRECTION('',(0.0,-1.0,0.0));" />
+		<line237 content="#249=DIRECTION('',(0.939692620785908,0.0,-0.342020143325669));" />
+		<line238 content="#250=DIRECTION('',(0.0,-1.0,0.0));" />
+		<line239 content="#251=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line240 content="#252=DIRECTION('',(-1.0,0.0,0.0));" />
+		<line241 content="#253=DIRECTION('',(0.0,-1.0,0.0));" />
+		<line242 content="#254=DIRECTION('',(1.0,0.0,0.0));" />
+		<line243 content="#255=DIRECTION('',(0.0,1.0,0.0));" />
+		<line244 content="#256=DIRECTION('',(0.0,1.0,0.0));" />
+		<line245 content="#257=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line246 content="#258=DIRECTION('',(0.0,-1.0,0.0));" />
+		<line247 content="#259=DIRECTION('',(-1.0,0.0,0.0));" />
+		<line248 content="#260=DIRECTION('',(0.0,0.0,-1.0));" />
+		<line249 content="ENDSEC;" />
+		<line250 content="END-ISO-10303-21;" />
+	</STEP>
+</FeatureTree>
